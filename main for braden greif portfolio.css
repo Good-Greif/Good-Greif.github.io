@@ -120,18 +120,18 @@ footer p {
     right: 0;
 }
 
-.weddingphoto1 {
+#weddingphoto1 {
     position: relative;
     top: -345px;
 }
 
-pizza {
+#pizza {
      position: relative;
     top: -0px;
     left: px;
 }
 
-.chocolate {
+#chocolate {
     position: relative;
     top: -345px;
     margin-top: auto:100px;
@@ -141,7 +141,7 @@ pizza {
     top: -350px;
     right: 
 }
-.cookie{
+#cookie{
     position: relative;
     top: -505px;
     left: -250px;
