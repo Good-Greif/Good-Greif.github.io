@@ -105,27 +105,27 @@ footer p {
   border-radius: 0 3px 3px 0;
   cursor: pointer;
 }
-#contact{
+.contact{
     font-size: 37px;
 }
-#camera{
+.camera{
     position: absolute;
   top: 0;
   left: 0;
   margin-left: 30px;
 }
-#drone{
+.drone{
     position: absolute;
     top: 0;
     right: 0;
 }
 
-#wedding-photo1 {
+.wedding-photo1 {
     position: relative;
     top: -345px;
 }
 
-#pizza {
+.pizza {
      position: relative;
     top: -0px;
     left: px;
