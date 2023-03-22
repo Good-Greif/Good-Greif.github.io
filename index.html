@@ -4,10 +4,13 @@
     <title>Video Portfolio</title>
     <link rel="stylesheet" href="main for braden greif portfolio.css">
     <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+    <link rel="shortcut icon" type="image/png" href="img/bgfavicon.png">
   </head>
+  <img src="E:\Portfolio website\Gift\logo.png" alt="" id="camera">
+  <img src="E:\Portfolio website\drone clip art.png" alt="" id="drone" height="15%" width="10%">
   <body>
     <header>
-      <h1>My Video Portfolio</h1>
+      <h1>Braden's Video Portfolio</h1>
     </header>
     
     <section id="about">
@@ -15,9 +18,9 @@
       <h2>About Me/Skillz</h2>
       <p><br>As an experienced videographer, photographer, and avid artist, I have a broad range of skills and capabilities, including creating and capturing anything from advertisements, styling, portraits, weddings, music videos, to short films. With 6 years of experience in creating professional work, I have worked for ESPN+ and full-length feature films, including one starring Tom Green.<br><br>
 
-I am always seeking new knowledge and opportunities for growth. I was even awarded a scholarship to study Chinese in Taiwan, where I became HSK 3   conversational in Mandarin. In addition to my language skills, I am fluent in all  of the the typical Adobe Suite programs, Final Cut, and DaVinci, and hold FAA 107 drone certification.<br><br>
+I am always seeking new knowledge and opportunities for growth. I was even awarded a scholarship to study Chinese in Taiwan, where I became HSK 3   conversational in Mandarin. In addition to my language skills, I am fluent in all  of the the typical Adobe Suite programs, Final Cut, and DaVinci, and hold a FAA 107 drone certification.<br><br>
 
-In pursuit of my passion, I earned a BS in Television and Film, completing my four-year degree in just three years. I am always learning new trends and keeping up with technology to deliver high-quality results. And not just creative skills, but I even managed to learn many technical skills.</p><br>
+In pursuit of my passion, I earned a BS in Television and Film, completing my four-year degree in just three years. I am always learning new trends and keeping up with technology to deliver high-quality results. And not just creative skills, but I even managed to learn many technical skills, I even coded and published the website you're on right now.</p><br>
     </section>
     
     <section id="portfolio">
@@ -25,28 +28,41 @@ In pursuit of my passion, I earned a BS in Television and Film, completing my fo
   <section id="gallery">
     <div class="video-gallery">
       <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0"></iframe>
+        <iframe src="https://drive.google.com/file/d/1Lq71PtStLIJGcyN6PtPkWra655q3Be-8/preview" width="640" height="480" allow="autoplay"></iframe>
       </div>
       <div class="video-info">
-        <h2>Video Title 1</h2>
-        <p>Video Description 1</p>
+        <h2>The Tripp Travelers</h2>
+        <br><p>(Check out the ending at 6:40) My first wedding video was an incredible experience that allowed me to showcase my skills as a videographer. I approached the wedding with a deep commitment to capturing the essence of the couple's love story in a unique and unforgettable way. Despite being early in my career, I was confident in my abilities and my ability to deliver a high-quality product. <br>
+
+Throughout the day, I worked tirelessly to capture every special moment and to highlight the unique beauty of the event. I used my artistic eye and technical expertise to capture the lighting, angles, and perspectives that best showcased the couple and their surroundings. My editing skills allowed me to take the raw footage and transform it into a beautiful, cinematic story that captured the heart of the event.<br>
+
+Looking back on that early work, I am proud of how far I have come as a videographer. I have continued to refine my skills and to push the boundaries of what is possible in wedding videography. However, even with all the experience and knowledge that I have gained, I remain confident that my early work was truly exceptional and set the stage for the incredible videos that I continue to produce today.</p>
       </div>
     </div>
     <div class="video-gallery">
       <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/VIDEO_ID_2" frameborder="0"></iframe>
+       <iframe src="https://drive.google.com/file/d/1s8ST7s63D0MPDVJyF4zMryBe74LQU0H0/preview" width="640" height="480" allow="autoplay"></iframe>
       </div>
       <div class="video-info">
-        <h2>Video Title 2</h2>
-        <p>Video Description 2</p>
+        <h2>1042 AA Highway, Farmington Mo</h2>
+        <p>Using my creative vision and drone technology, I captured stunning footage of a 7000 square foot, 5-bedroom, 4-bath luxury home nestled on 11 sprawling acres, complete with a picturesque pond. With every shot, I aimed to showcase the grandeur and tranquility of this magnificent property, leaving potential buyers feeling captivated and inspired</p>
       </div>
     </div>
     <div class="video-gallery">
       <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/VIDEO_ID_3" frameborder="0"></iframe>
+        <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FLandAFilmCompany%2Fvideos%2F1807993406016182%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
       </div>
       <div class="video-info">
         <h2>Video Title 3</h2>
+        <p>Video Description 3</p>
+      </div>
+    </div>
+    <div class="video-gallery">
+      <div class="video-container">
+        <iframe src="https://drive.google.com/file/d/1hwZVE_2kOz6wPOL83b9B4OThXzrJMvi7/preview" width="640" height="480" allow="autoplay"></iframe>
+      </div>
+      <div class="video-info">
+        <h2>Video Title 4</h2>
         <p>Video Description 3</p>
       </div>
     </div>
@@ -63,7 +79,7 @@ In pursuit of my passion, I earned a BS in Television and Film, completing my fo
   function nextVideo() {
     showVideo(videoIndex += 1);
   }
-  
+  /*
   function showVideo(n) {
     var videos = document.getElementsByClassName("video-gallery");
     if (n > videos.length) { videoIndex = 1 }
@@ -71,8 +87,19 @@ In pursuit of my passion, I earned a BS in Television and Film, completing my fo
     for (var i = 0; i < videos.length; i++) {
       videos[i].style.display = "none";
     }
+      {
     videos[videoIndex - 1].style.display = "block";
   }
+*/ 
+      function showVideo(n) {
+  var videos = document.getElementsByClassName("video-gallery");
+  if (n > videos.length) { videoIndex = 1 }
+  if (n < 1) { videoIndex = videos.length }
+  for (var i = 0; i < videos.length; i++) {
+    videos[i].style.display = "none";
+  }
+  videos[videoIndex - 1].style.display = "block";
+}
 
   </script>    
   </section>
@@ -80,35 +107,45 @@ In pursuit of my passion, I earned a BS in Television and Film, completing my fo
   <section>
     <div class="row">
       <div class="column">
-        <img src="img/img 1.jpg" alt="" style="width: 100%">
+        <img src="E:\AI photos\B&W Charles' (1 of 2).jpg" alt="" style="width: 100%">
       </div>
       <div class="column">
-        <img src="img/img 2.jpg" alt="" style="width:100%">
+        <img src="E:\AI photos\Jan 11th shoot (1 of 1).jpg" alt="" style="width:100%">
       </div>
       <div class="column">
-        <img src="img/img 3.jpg" alt="" style="width:100%">
+        <img src="E:\Bogo S\Finished\hand holding sandwich w logo.png" alt="" style="width:100%">
       </div>
       <div class="column">
-        <img src="img/img 4.jpg" alt="" style="width:100%">
+        <img src="E:\AI photos\theeliasnoel_a_krasue_a_khmer_womans_head_with_a_ghostly_face_a_9f620521-3e9f-4a0b-9219-2d37aa4f0781.png" alt="" style="width:100%">
       </div>
       <div class="column">
-        <img src="img/img 5.jpg" alt="" style="width:100%">
+        <img src="E:\AI photos\B&W Charles' (1 of 1).jpg" alt="" style="width:100%" id="wedding-photo1">
       </div>
       <div class="column">
-        <img src="img/img 6.jpg" alt="" style="width:100%">
+        <img src="E:\AI photos\DSC09422-Edit (1).jpg" alt="" style="width:100%" id="chocolate">
       </div>
-    </div>
+      
+      <div class="column">
+          <img src="E:\AI photos\DALL·E 2023-02-24 15.08.58 - delicitable pizza comming out of a firebrick oven with focus on the pizza and delicious toppings.png" alt="" style="width:100%" id="pizza">
+        </div>
+        <div class="column">
+            <img src="E:\Macaron Photos\Finished\finished\IMG_8772.jpg" style="width:100%" id="macaron">
+        </div>
+        <div>
+            
+          <img src="E:\AI photos\DALL·E 2023-02-24 21.07.40 - birds eye view aesthetic rustic plate of cookies_.png" alt="" style="width:32.5%" id="cookie">
+      </div>
+        </div>
   </section>
-
+ 
     <section id="contact">
       <h2>Contact Me</h2>
       <p>Text me at (573) 330-6383 <br>
-      Email me bradengreif@gmail.com</p>
+      Email me bradengreif@gmail.com<br><br><br><br><br></p>
     </section>
     
     <footer>
-      <a href="https://www.linkedin.com/in/braden-grief/" target="_blank"><i class="fab fa-linkedin"></i></a>
+       <a href="https://www.linkedin.com/in/braden-grief/" target="_blank"><img src="E:\Portfolio website\Gift\ln.png" height="35" weight="35"></a>
     </footer>
-    
   </body>
 </html>
