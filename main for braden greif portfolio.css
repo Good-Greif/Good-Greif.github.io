@@ -18,10 +18,22 @@ header {
 }
 
 header h1 {
+    color: #888559;
   font-size: 2em;
   margin-bottom: 0.5em;
 }
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 60px;
+    align-content: center;
 
+}
+p{
+    margin-left: 60px;
+    margin-right: 60px;
+}
 footer {
   background-color: #333;
   color: #fff;
@@ -56,11 +68,11 @@ footer p {
 
 .video-info {
   position: absolute;
-  margin-top: -20px;
+  margin-top: -19px;
   text-align: center;
   bottom: 0;
   left: 0;
-  padding: 10px;
+  padding: 7px;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   color: #fff;
@@ -93,8 +105,49 @@ footer p {
   border-radius: 0 3px 3px 0;
   cursor: pointer;
 }
+#contact{
+    font-size: 37px;
+}
+#camera{
+    position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 30px;
+}
+#drone{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 
+#wedding-photo1 {
+    position: relative;
+    top: -345px;
+}
 
+#pizza {
+     position: relative;
+    top: -0px;
+    left: px;
+}
+
+#chocolate {
+    position: relative;
+    top: -345px;
+    margin-top: auto:100px;
+}
+#macaron {
+    position: relative;
+    top: -350px;
+    right: 
+}
+#cookie{
+    position: relative;
+    top: -505px;
+    left: -250px;
+    
+*/
+}
 .prev:hover, .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
