@@ -131,17 +131,17 @@ footer p {
     left: px;
 }
 
-#chocolate {
+.chocolate {
     position: relative;
     top: -345px;
     margin-top: auto:100px;
 }
-macaron {
+.macaron {
     position: relative;
     top: -350px;
     right: 
 }
-cookie{
+.cookie{
     position: relative;
     top: -505px;
     left: -250px;
